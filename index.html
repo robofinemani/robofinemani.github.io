@@ -1,191 +1,61 @@
- <!-- FlatFy Theme - Andrea Galanti /-->
- <!doctype html>
- <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
- <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
- <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
- <!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
- <!--[if gt IE 9]><!--> <html> <!--<![endif]-->
- <head>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-     <meta name="description" content="Workshop on Advances in Language and Vision Research ">
-     <meta name="author" content="">
-<!--    这里改网页名字   -->
-     <title>ACCV 2022 FGIA Workshop</title>
-      <link rel="icon" href="https://accv2022.org/files/images/favicon/apple-icon-57x57.png">
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>页面跳转示例</title>
+  <!-- 引入外部 CSS 文件 -->
+  <link rel="stylesheet" href="new_page/css/new_lin_page.css">
+</head>
+<body>
+<!-- 新增：覆盖整个页面的红色背景 div -->
+<!--<div id="fullscreen-overlay"></div>-->
+<!-- 模拟图片的纯色背景 div -->
+<div class="placeholder-image">背景抬头显示</div>
+<div id="header">
+<!-- 导航栏 -->
+<nav>
+  <a href="#section1">Section 1</a>
+  <a href="#section2">Section 2</a>
+  <a href="#section3">Section 3</a>
+  <a href="#section4">Section 4</a>
+  <a href="#section5">Section 5</a>
+  <a href="#section6">Section 6</a>
+</nav>
 
-     <!-- Bootstrap core CSS -->
-     <link href="css/bootstrap.min.css" rel="stylesheet">
-  
-     <!-- Custom Google Web Font -->
-     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-     
-     <!-- Custom CSS-->
-     <link href="css/general.css" rel="stylesheet">
-     
-      <!-- Owl-Carousel -->
-     <link href="css/custom.css" rel="stylesheet">
-     <link href="css/owl.carousel.css" rel="stylesheet">
-     <link href="css/owl.theme.css" rel="stylesheet">
-     <link href="css/style.css" rel="stylesheet">
-     <link href="css/animate.css" rel="stylesheet">
-     
-     <!-- Magnific Popup core CSS file -->
-     <link rel="stylesheet" href="css/magnific-popup.css"> 
-     
-     <script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
-     <!--[if IE 9]>
-         <script src="js/PIE_IE9.js"></script>
-     <![endif]-->
-     <!--[if lt IE 9]>
-         <script src="js/PIE_IE678.js"></script>
-     <![endif]-->
- 
-     <!--[if lt IE 9]>
-         <script src="js/html5shiv.js"></script>
-     <![endif]-->
- 
- </head>
- 
- <body id="home">
- 
-     <!-- Preloader -->
-     <div id="preloader">
-         <div id="status"></div>
-     </div>
-     
-     <!-- FullScreen -->
-     <div class="intro-header">
-           <div class="col-xs-12 text-center abcen1">
-<!--              <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s" style="text-shadow: 0 0 8px #000000;"> From VQA to VLN: Recent Advances in Vision-and-Language Research</h1> -->
-            <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s" style="text-shadow: 0px 8px 4px black, 0 0 25px black;font-weight: 400"> ACCV 2022 Workshop on Challenges of Fine-Grained Image Analysis</h1>
-            <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s" style="text-shadow: 0px 8px 4px black, 0 0 25px black;font-weight: 600"> 
-                 <h3 class="h3_home wow fadeIn animated animated" data-wow-delay="0.6s" style="text-shadow: black 0px 8px 4px, black 0px 0px 25px; font-weight: 600; visibility: visible; animation-delay: 0.6s;"> 
-                 <a style="color:white;text-shadow: 0px 8px 4px black, 0 0 25px black" href="" target="_blank">
-                  Time: <b>&nbsp; December 5<sup>th</sup> AM</b>
-                  <p></p>
-                 </a>
-                 
-                                     Zoom ID: 952 4373 6903 (Passwd: ACCV2022)
-                                     <p></p>
-                                     Room: Orchid 2
+<!-- 内容区域 -->
+<section id="section1">
+  <h2>Section 1</h2>
+  <p>这是 Section 1 的内容。点击导航栏中的链接可以跳转到其他部分。</p>
+</section>
 
-            </h3>
-<!--              <p></p> -->
-<!--                   Virtual Event -->
-                  
-            </h3>
-              
-         </div> 
-<!--    上面的是首页的东西，下面是首页的一些比如下拉框啊之类的玩意    -->
-         <!-- /.container -->
-         <div class="col-xs-12 text-center abcen wow fadeIn">
-             <div class="button_down "> 
-                 <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#scope"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
-             </div>
-         </div>
-     </div>
-     <!-- NavBar-->
-     <nav class="navbar-default" role="navigation">
-         <div class="container">
-             <div class="navbar-header">
-                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                     <span class="sr-only">Toggle navigation</span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
-        
-                 <a class="navbar-brand" style="font-size:20px" href="#home">Challenges of FGIA @ACCV 2022
-</a>
-             </div>
- 
-             <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-                 <ul class="nav navbar-nav">
-                     <li class="menuItem"><a href="#scope">Home</a></li>
-                     <li class="menuItem"><a href="/challenges.html">Challenges</a></li>	
-                     <li class="menuItem"><a href="/program.html">Program</a></li>
-                     <li class="menuItem"><a href="/organizers.html">Organizers</a></li>
-                 </ul>
-          </div>
-         </div>
-     </nav> 
-     
-     <!-- Scope -->
-     <div id ="scope" class="content-section-a" style="border-top: 0">
-         <div class="container">
-             <div class="row">
-                 <div class="wow fadeInRightBig" data-animation-delay="200"> 
-                     <h3 class="section-heading" style='text-align: justify;color:#164FC9'>Announcements</h3>
-                     <ul>
-                      <li class="lead"><b>8<sup>th</sup> October: </b>List of confirmed speakers is <b><a href="https://challengefgia-accv22.github.io/program.html">here</a></b>. More to follow!</li>
-                      <li class="lead"><b>8<sup>th</sup> September: </b>Our challenges are launched! </li>
-                      <li class="lead"><b>28<sup>th</sup> June: </b>Challenges of FGIA will be held in conjunction with ACCV 2022. More to follow!</li>
-                     </ul>
-                  <br>
+<section id="section2">
+  <h2>Section 2</h2>
+  <p>这是 Section 2 的内容。页面滚动时会自动平滑滚动到目标位置。</p>
+</section>
 
-                    <h3 class="section-heading" style='text-align: justify;color:#164FC9'>Workshop Overview</h3>                                  
-                         <p class="lead"  style="text-align:justify">
-                             Fine-grained image analysis (FGIA) is a longstanding and fundamental problem in computer vision and pattern recognition, and underpins a diverse set of real-world applications. The task of FGIA targets analyzing visual objects from subordinate categories, e.g., species of birds or models of cars. The small inter-class and large intra-class variation inherent to fine-grained image analysis makes it a challenging problem. In our workshop, we would like to host series of academic challenges about fine-grained image analysis, including <b><i>webly-supervised fine-grained recognition</i></b> and <b><i>large-scale fine-grained hashing search</i></b>.                              <br>
-                             <br><br>
-                             For the webly-supervised fine-grained recognition problem, participants have to deal with the challenging subordinate fine-grained category classification task (totally 5,089 sub-categories) by leveraging the free but noisy web data (a.k.a. webly fine-grained images). This results in a more robust evaluation of the current state of the art, counteracts overfitting to traditional fine-grained benchmarks, and allows insights into prevalent dataset bias, data noises and as well as long-tailed distribution of the webly fine-grained nature. The overall goal of the challenge is to evaluate the robustness and generalization capabilities of state-of-the-art algorithms.                             <br>
-                             <br><br>
-                             The large-scale fine-grained hashing search problem refers to the task of learning binary hashing codes for large-scale fine-grained image retrieval. It is desirable to generate compact hash bits for fine-grained images sharing both large intra-class variances and small inter-class variances. Participants have to provide low dimensional hash codes for all the images in the test set (totally 1,000 sub-categories) by leveraging the provided training and valid data obtained from <a href='https://www.inaturalist.org/'>iNaturalist</a>. The overall goal of this challenge is to evaluate the retrieval performance of those state-of-the-art algorithms associated with retrieval and hashing, which helps greatly reduce the storage costs and increase the query speeds.                         
-                            <br><br><br>
-                          Beyond these challenges, an invited talk session will be also considered. In such a session, the winner solutions will be invited to share the solutions of the challenges. Also, some experts in the related fields are invited to share insights and thinking about the main topic of our workshop.
-                  </p>  
-                                
-<!--                   </p>    -->
-              </div>   
-             </div>
-         </div>
-     </div>
-     	
- 
-    
-     <div id="contacts" class="content-section-c ">
-              <!-- Contacts -->
-         <div class="container">
-             <div class="row">   
-                 <div class="wow" data-animation-delay="200">   
-                     <div class="sub-title lead3"  style="text-align:center;color:white">
-                      ACCV 2022 Workshop ©2022 
-                     </div>
-                 </div>                       
-             </div>             
-         </div>
-     </div> 
-     
- 
-     <!-- JavaScript -->
-     <script src="js/jquery-1.10.2.js"></script>
-     <script src="js/bootstrap.js"></script>
-     <script src="js/owl.carousel.js"></script>
-     <script src="js/script.js"></script>
-     <!-- StikyMenu -->
-     <script src="js/stickUp.min.js"></script>
-     <script type="text/javascript">
-       jQuery(function($) {
-         $(document).ready( function() {
-           $('.navbar-default').stickUp();
-           
-         });
-       });
-     
-     </script>
-     <!-- Smoothscroll -->
-     <script type="text/javascript" src="js/jquery.corner.js"></script> 
-     <script src="js/wow.min.js"></script>
-     <script>
-      new WOW().init();
-     </script>
-     <script src="js/classie.js"></script>
-     <script src="js/uiMorphingButton_inflow.js"></script>
-     <!-- Magnific Popup core JS file -->
-     <script src="js/jquery.magnific-popup.js"></script> 
- </body>
- 
- </html>
- 
+<section id="section3">
+  <h2>Section 3</h2>
+  <p>这是 Section 3 的内容。你可以继续添加更多内容。</p>
+</section>
+
+<section id="section4">
+  <h2>Section 4</h2>
+  <p>这是 Section 4 的内容。你可以继续添加更多内容。</p>
+</section>
+
+<section id="section5">
+  <h2>Section 5</h2>
+  <p>这是 Section 5 的内容。你可以继续添加更多内容。</p>
+</section>
+
+<section id="section6">
+  <h2>Section 6</h2>
+  <p>这是 Section 6 的内容。你可以继续添加更多内容。</p>
+</section>
+
+<!-- 引入外部 JavaScript 文件 -->
+<script src="new_page/js/new_lin_page.js"></script>
+</div>
+</body>
+</html>
