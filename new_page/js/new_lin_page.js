@@ -15,3 +15,14 @@ document.querySelectorAll('nav a').forEach(anchor => {
         }
     });
 });
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const topLink = document.getElementById('topLink');
+    topLink.addEventListener('click', function (e) {
+        window.scrollTo({ top: 0, behavior:'smooth' });
+        e.preventDefault();
+    });
+});
