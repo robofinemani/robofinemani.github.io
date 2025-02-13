@@ -322,7 +322,7 @@ li{list-style-type:disc}
 .white {color:white}
 .hidden { visibility: hidden;}
 .lead {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   margin-top: 20px;
   font-size: 20px;
   line-height: 1.46428571;
